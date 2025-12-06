@@ -1,8 +1,8 @@
-# Connect 4 AI Arena 🔴🟡
+# Connect 4 AI 🔴🟡
 
 A Python-based simulation environment for **Connect 4**, featuring a comparison of various Artificial Intelligence search algorithms. This project implements a game engine and allows different AI agents—ranging from greedy heuristics to advanced search trees—to compete against one another to determine the most effective strategy.
 
-## 📋 Features
+## Features
 
 * **Game Engine:** Complete implementation of Connect 4 logic (6x7 grid), including valid move detection, win checking (horizontal, vertical, diagonal), and draw conditions.
 * **Heuristic Evaluation:** A robust scoring function that evaluates board states based on:
@@ -16,7 +16,7 @@ A Python-based simulation environment for **Connect 4**, featuring a comparison 
     4.  **Simulated Annealing:** Probabilistic local search that avoids local optima by accepting worse moves with a decreasing probability (Temperature).
 * **Simulation Runner:** Tools to run single verbose games (for debugging/watching) or batch simulations to gather win/loss statistics.
 
-## 🚀 Installation
+## Installation
 
 This project relies only on Python's standard libraries (`math`, `random`, `time`, `sys`). No external dependencies are required.
 
@@ -31,7 +31,7 @@ This project relies only on Python's standard libraries (`math`, `random`, `time
     python connect4.py
     ```
 
-## 🎮 Usage & Configuration
+## Usage & Configuration
 
 The simulation is configured in the `__main__` block at the bottom of `connect4.py`. You can match any two algorithms against each other.
 
